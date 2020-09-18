@@ -11,7 +11,7 @@ router = {
     "device_type":"cisco_ios"
 }
 
-#configurar = ["no interface loopback 11"]
+configurar = ["no interface loopback 11"]
 
 #try:
     A = ConnectHandler(**router)
