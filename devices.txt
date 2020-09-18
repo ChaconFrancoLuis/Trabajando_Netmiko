@@ -13,3 +13,4 @@ Cisco Meraki MX64W Security Appliance
 Cisco Meraki MX84 Security Appliance
 Cisco Meraki MC74 VoIP Phone
 Cisco 3860 Catalyst Switch
+Nexus10000
