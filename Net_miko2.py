@@ -15,6 +15,8 @@ config_commands = ["interface vlan 2",
                    "ip address 192.168.0.6 255.255.255.0",
                    "no shut"]
 
+net_connect = ConnectHandler(**cisco_881)
+
 output = net_connect.send_config_set(config_commands)
 print(output)
 
