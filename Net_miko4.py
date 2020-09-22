@@ -1,7 +1,6 @@
 from netmiko import ConnectHandler
-from netmiko.ssh_exception import NetMikoAuthenticationException
 
-#router = {
+router = {
     "host":"192.168.0.7",
     "port":22,
     "username":"cisco",

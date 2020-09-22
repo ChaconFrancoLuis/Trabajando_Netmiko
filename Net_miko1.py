@@ -8,8 +8,8 @@ sshCli = ConnectHandler(
     password="cisco123!"
     )
 
-#output = sshCli.send_command("show ip interface brief")
-#print(output)
+output = sshCli.send_command("show ip interface brief")
+print(output)
 
 
 
