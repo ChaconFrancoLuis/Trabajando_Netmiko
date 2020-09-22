@@ -9,7 +9,7 @@ cisco_881 = {
     'port' : 22}
 
 
-#net_connect = ConnectHandler(**cisco_881)
+net_connect = ConnectHandler(**cisco_881)
 
 config_commands = ["interface vlan 2",
                    "ip address 192.168.0.6 255.255.255.0",
